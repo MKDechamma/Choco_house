@@ -26,7 +26,7 @@ Follow these steps to set up and run the application:
 
 ## Setup and Installation:
 1. Clone the repository:
-   git clone https://github.com/MKDECHAMMA/chocolate-house.git
+   git clone https://github.com/MKDechamma/Choco_house.git
 
 2. Build the Docker Image:
    docker build -t chocohouse .
