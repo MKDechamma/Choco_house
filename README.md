@@ -39,4 +39,4 @@ Follow these steps to set up and run the application:
 
 
 ## Screenshots
-![Img1](/Screenshots/Screenshot 2024-11-05 150142.png)
+![Img1](/Screenshots/Screenshot 2024-11-05 150142.png).
