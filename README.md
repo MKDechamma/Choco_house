@@ -38,4 +38,5 @@ Follow these steps to set up and run the application:
    Open your web browser and go to http://localhost:5000 to access the Chocolate House Application.
 
 
-
+## Screenshots
+![Img1](/Screenshots/Screenshot 2024-11-05 150142.png)
