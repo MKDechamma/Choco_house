@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Customer Feedback</h2>
+<ul>
+    {% for feedback in feedbacks %}
+    <li>ID: {{ feedback[0] }} | Name: {{ feedback[1] }} | Suggestion: {{ feedback[2] }} | Allergy Concern: {{ feedback[3] }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}

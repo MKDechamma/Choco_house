@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Add Seasonal Flavor</h2>
+<form method="POST">
+    <label for="flavor_name">Flavor Name:</label>
+    <input type="text" id="flavor_name" name="flavor_name" required>
+    <label for="description">Description:</label>
+    <input type="text" id="description" name="description" required>
+    <label for="season">Season:</label>
+    <input type="text" id="season" name="season" required>
+    <button type="submit">Add Flavor</button>
+</form>
+{% endblock %}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocolate House</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Chocolate House Application</h1>
+        <nav>
+            <a href="{{ url_for('index') }}">Home</a>
+            <a href="{{ url_for('add_flavor') }}">Add Flavor</a>
+            <a href="{{ url_for('add_ingredient') }}">Add Ingredient</a>
+            <a href="{{ url_for('add_feedback') }}">Add Feedback</a>
+            <a href="{{ url_for('view_flavors') }}">View Flavors</a>
+            <a href="{{ url_for('view_inventory') }}">View Inventory</a>
+            <a href="{{ url_for('view_feedback') }}">View Feedback</a>
+        </nav>
+    </header>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    <footer>
+        <p>&copy; 2024 Chocolate_House_by_MKD</p>
+    </footer>
+</body>
+</html>

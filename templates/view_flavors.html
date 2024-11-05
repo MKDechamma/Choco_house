@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Seasonal Flavors</h2>
+<ul>
+    {% for flavor in flavors %}
+    <li>ID: {{ flavor[0] }} | Name: {{ flavor[1] }} | Description: {{ flavor[2] }} | Season: {{ flavor[3] }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}
